@@ -1,57 +1,42 @@
-/*colors
-light purple #985F99
-orangish gold #E6AF2E
-*/
-html{
-    font-size: larger;
-}
 body{
     width: 100%;
     margin: 0px;
-    background-color: #4A1942;
+    background-color: #331832;
     background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
-    color: #EAEAEA;
 }
 
 header{
-    background-color: #FCFCFC;
+    background-color: #FFF7F7;
 }
 header h1{
     text-align:center;
     margin: 0px;
-    color: #2EC4B6;
+    color: #527C75;
 }
 header h3{
     text-align: center;
     margin: 0px;
-    color: #2EC4B6; 
-}
-header ul{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+    color: #F6E8EA;0 
 }
 .nav-item{
     list-style-type: none;
     display: inline-block;
-    width: 60px;
+    background-color: #527C75;
+    margin-right: 10px;
+    padding: 3px 10px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 main{
     margin: 1%;
     min-height:100vh;
 }
-.motto-block{
-    background-color: #F0D87D;
-    text-align: center;
-}
 
 footer{
-     background-color: #FCFCFC;
+     background-color: tomato;
      border-top:solid 3px black;
      padding:5%; 
 }
-
 footer ul{
   list-style-type: none; 
   display: flex;
@@ -63,32 +48,32 @@ footer ul{
 
 a:link{
     text-decoration: none;
-    color: #2EC4B6;
+    color: #F6E8EA;
 }
 
-.fa-snapchat:hover{
-    opacity: 0.7;
-    color:purple;
-}
 .fa-snapchat{
     text-decoration:none;
     color: yellow;
 }
-.fa-facebook:hover{
+.fa-snapchat:hover{
     opacity: 0.7;
-    color:red;
+    color:purple;
 }
 .fa-facebook{
     text-decoration:none;
     color:blue;
 }
-.fa-instagram:hover{
+.fa-facebook:hover{
     opacity: 0.7;
-    color:orange;
+    color:red;
 }
 .fa-instagram{
     text-decoration:none;
     color:Maroon;
+}
+.fa-instagram:hover{
+    opacity: 0.7;
+    color:orange;
 }
 
 html, body {
