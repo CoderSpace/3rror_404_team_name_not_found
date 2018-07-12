@@ -97,57 +97,43 @@
     iframe{
         float:right;
     }
-=======
-/*colors
-light purple #985F99
-orangish gold #E6AF2E
-*/
-html{
-    font-size: larger;
-}
+
 body{
     width: 100%;
     margin: 0px;
-    background-color: #4A1942;
-    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
-    color: #EAEAEA;
+    background-color: #D8DBE2;
 }
 
 header{
-    background-color: #FCFCFC;
+    background-color: #5c4226;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 }
 header h1{
     text-align:center;
     margin: 0px;
-    color: #2EC4B6;
+    color: #527C75;
 }
 header h3{
     text-align: center;
     margin: 0px;
-    color: #2EC4B6; 
-}
-header ul{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+    color: #F6E8EA;
 }
 .nav-item{
     list-style-type: none;
     display: inline-block;
-    width: 60px;
+    background-color: #527C75;
+    margin-right: 10px;
+    padding: 3px 10px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 main{
     margin: 1%;
     min-height:100vh;
 }
-.motto-block{
-    background-color: #F0D87D;
-    text-align: center;
-}
 
 footer{
-     background-color: #FCFCFC;
+     background-color: tomato;
      border-top:solid 3px black;
      padding:5%; 
 }
@@ -163,7 +149,7 @@ footer ul{
 
 a:link{
     text-decoration: none;
-    color: #2EC4B6;
+    color: #F6E8EA;
 }
 
 .fa-snapchat:hover{
@@ -197,3 +183,33 @@ html, body {
 }
 /*for side scrolling*/
 
+ul {
+    list-style-type: none;
+    color: #3B3B58;
+}
+
+.h3 {
+   color: #BB7E5D; 
+}
+
+p {
+    color: #3B3B58;
+}
+
+.ul {
+    list-style-type: disc;
+    color: #3B3B58;
+}
+
+.h1 {
+    color: #527C75;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-items {
+    align-content: center;
+    justify-content: space-around;
+}
