@@ -95,4 +95,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*for side scrolling*/
+.paulp{
+    float:left;
+    width: 40%;
+    }
