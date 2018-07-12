@@ -15,5 +15,9 @@ If you want, you can also go watch some training videos at
 http://www.youtube.com/user/c9ide.
 
 Happy coding!
+<<<<<<< HEAD
 The Cloud9 IDE team# team_site
 # 3rror_404_team_name_not_found
+=======
+The Cloud9 IDE team
+>>>>>>> First commit

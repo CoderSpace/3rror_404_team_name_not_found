@@ -7,7 +7,6 @@ body{
 header{
     background-color: #5c4226;
     background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-    
 }
 header h1{
     text-align:center;
@@ -52,7 +51,6 @@ a:link{
     text-decoration: none;
     color: #F6E8EA;
 }
-
 
 .fa-snapchat:hover{
     opacity: 0.7;
