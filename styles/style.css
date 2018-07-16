@@ -18,17 +18,44 @@ header h3{
     margin: 0px;
     color: #B5CA8D;
 }
-header ul{
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  /*flex-wrap: wrap;*/
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+.icon{
+  display: none;
+}
+@media screen and (max-width:700px){
+  ul.nav li:not(:first-child){
+    display: none;
+  }
+  ul.nav{
     display: flex;
-    justify-content: space-around;
-}
-.nav-item{
-    list-style-type: none;
-    display: inline-block;
-    background-color: #527C75;
-    width: 60px;
+    flex-direction: column;
     text-align: center;
+  }
+  ul.nav li.icon{
+    display: block;
+    position: absolute;
+  }
+  ul.nav.responsive li{
+    display: block;
+  }
+  header{
+    height: 200px;
+  }
 }
+
 
 main{
     margin: 1%;
