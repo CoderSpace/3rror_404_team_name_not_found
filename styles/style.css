@@ -57,6 +57,7 @@ nav a{
   ul.nav li.icon{
     display: block;
     position: absolute;
+    top:70px;
   }
   ul.nav.responsive li{
     display: block;
@@ -81,7 +82,7 @@ header ul{
     border-radius: 5px 5px 0px 0px;
 
 
-}
+}}
 
 main{
     margin: 1%;
@@ -92,24 +93,25 @@ main{
     font-family: Roboto;
 }
 
-footer{
-
-     background-color: #197278;
-     padding:3%; 
-
-     background-color: tomato;
-     border-top:solid 3px black;
-     padding:5%; 
-
-}
-footer ul{
+footer {
+    background-color:tomato;
+    border-top: solid 3px black;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+/*}*/
+/*footer {*/
   list-style-type: none; 
   display: flex;
   align-items:flex-end;
   justify-content:space-around;
   width:100%;
   text-align: center;
+   position:relative;
+    
 }
+    
+
+
 
 a:link{
     text-decoration: none;
@@ -145,7 +147,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*for side scrolling*/
+for side scrolling
 
 ul {
     list-style-type: none;
@@ -178,6 +180,5 @@ p {
     float:left;
     width: 40%;
     }
-moto-block{
-    position:absolute;
+
 }
