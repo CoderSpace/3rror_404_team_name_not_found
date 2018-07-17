@@ -1,117 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-body{
-    width: 100%;
-    margin: 0px;
-    background-color: #FFF7F7;
-    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
-}
-
-header{
-    background-color: #197278;
-
-    body{
-        width: 100%;
-        margin: 0px;
-        background-color: #F6E8EA;
-    }
-    
-    header{
-        background-color: #5c4226;
-        background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-        
-    }
-    header h1{
-        text-align:center;
-        margin: 0px;
-        color: #527C75;
-    }
-    header h3{
-        text-align: center;
-        margin: 0px;
-        color:#F6E8EA;
-    }
-    .nav-item{
-        list-style-type: none;
-        display: inline-block;
-        background-color: #527C75;
-        margin-right: 10px;
-        padding: 3px 10px;
-        border-radius: 5px 5px 0px 0px;
-    }
-    
-    main{
-        margin: 1%;
-        min-height:100vh;
-    }
-    
-    footer{
-         background-color: tomato;
-         border-top:solid 3px black;
-         padding:5%; 
-    }
-    
-    footer ul{
-      list-style-type: none; 
-      display: flex;
-      align-items:flex-end;
-      justify-content:space-around;
-      width:100%;
-      
-    }
-    
-    a:link{
-        text-decoration: none;
-        color: #F6E8EA;
-    }
-    
-    
-    .fa-snapchat:hover{
-        opacity: 0.7;
-        color:purple;
-    }
-    .fa-snapchat{
-        text-decoration:none;
-        color: yellow;
-    }
-    .fa-facebook:hover{
-        opacity: 0.7;
-        color:red;
-    }
-    .fa-facebook{
-        text-decoration:none;
-        color:blue;
-    }
-    .fa-instagram:hover{
-        opacity: 0.7;
-        color:orange;
-    }
-    .fa-instagram{
-        text-decoration:none;
-        color:Maroon;
-    }
-    
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    /*for side scrolling*/
-    
-    ul {
-        list-style-type: none;
-    }
-    
-    p {
-        color:black;
-        /*text-align:right;*/
-        float:left;
-    }
-    iframe{
-        float:right;
-    }
-
 body{
     width: 100%;
     margin: 0px;
@@ -168,6 +57,7 @@ nav a{
   ul.nav li.icon{
     display: block;
     position: absolute;
+    top:70px;
   }
   ul.nav.responsive li{
     display: block;
@@ -179,25 +69,20 @@ nav a{
 header ul{
     display: flex;
     justify-content: space-around;
-
-    color: #F6E8EA;
-
 }
+
 .nav-item{
     list-style-type: none;
     display: inline-block;
     background-color: #527C75;
-
-    width: 60px;
+ 
     text-align: center;
-
     margin-right: 10px;
     padding: 3px 10px;
     border-radius: 5px 5px 0px 0px;
 
 
-}
-
+}}
 
 main{
     margin: 1%;
@@ -208,24 +93,25 @@ main{
     font-family: Roboto;
 }
 
-footer{
-
-     background-color: #197278;
-     padding:3%; 
-
-     background-color: tomato;
-     border-top:solid 3px black;
-     padding:5%; 
-
-}
-footer ul{
+footer {
+    background-color:tomato;
+    border-top: solid 3px black;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+/*}*/
+/*footer {*/
   list-style-type: none; 
   display: flex;
   align-items:flex-end;
   justify-content:space-around;
   width:100%;
-  
+  text-align: center;
+   position:relative;
+    
 }
+    
+
+
 
 a:link{
     text-decoration: none;
@@ -261,7 +147,8 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*for side scrolling*/
+<<<<<<< HEAD
+for side scrolling
 
 ul {
     list-style-type: none;
@@ -285,11 +172,12 @@ p {
     color: #527C75;
 }
 
-footer {
-    text-align: center;
-}
-
 .footer-items {
     align-content: center;
     justify-content: space-around;
 }
+
+.paulp{
+    float:left;
+    width: 40%;
+    }
