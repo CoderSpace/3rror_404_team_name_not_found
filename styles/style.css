@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 body{
     width: 100%;
     margin: 0px;
@@ -135,6 +138,44 @@ header h3{
 
     color: #B5CA8D;
 }
+
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  /*flex-wrap: wrap;*/
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+.icon{
+  display: none;
+}
+@media screen and (max-width:700px){
+  ul.nav li:not(:first-child){
+    display: none;
+  }
+  ul.nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  ul.nav li.icon{
+    display: block;
+    position: absolute;
+  }
+  ul.nav.responsive li{
+    display: block;
+  }
+  header{
+    height: 200px;
+  }
+
 header ul{
     display: flex;
     justify-content: space-around;
@@ -154,11 +195,17 @@ header ul{
     padding: 3px 10px;
     border-radius: 5px 5px 0px 0px;
 
+
 }
+
 
 main{
     margin: 1%;
     min-height:100vh;
+}
+.motto-block{
+    text-align: center;
+    font-family: Roboto;
 }
 
 footer{
