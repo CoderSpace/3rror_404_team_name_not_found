@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
@@ -36,7 +35,7 @@ nav ul {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 nav a{
   text-decoration: none;
@@ -88,18 +87,15 @@ main{
     margin: 1%;
     min-height:100vh;
 }
-.motto-block{
-    text-align: center;
-    font-family: Roboto;
-}
+
 
 footer {
     background-color:tomato;
     border-top: solid 3px black;
-    /*display: flex;*/
-    /*align-items: flex-end;*/
-/*}*/
-/*footer {*/
+    display: flex;
+    align-items: flex-end;
+}
+footer {
   list-style-type: none; 
   display: flex;
   align-items:flex-end;
@@ -147,7 +143,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-<<<<<<< HEAD
+
 for side scrolling
 
 ul {
@@ -181,3 +177,4 @@ p {
     float:left;
     width: 40%;
     }
+
