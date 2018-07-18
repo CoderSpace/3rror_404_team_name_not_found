@@ -54,8 +54,8 @@ nav a{
     text-align: center;
   }
   ul.nav li.icon{
-    display: block;
-    position: absolute;
+    display:block;
+    position:fixed;
     top:70px;
   }
   ul.nav.responsive li{
@@ -145,6 +145,8 @@ html, body {
 }
 
 for side scrolling
+
+
 
 ul {
     list-style-type: none;
