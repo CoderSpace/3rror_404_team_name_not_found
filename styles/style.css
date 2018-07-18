@@ -68,6 +68,16 @@ main{
     font-family: Roboto;
 }
 
+.albums{
+    /*display: flex;*/
+}
+.albums h3{
+    
+}
+.album img{
+    height: 150px;
+}
+
 footer{
      background-color: #197278;
      padding:3%; 
