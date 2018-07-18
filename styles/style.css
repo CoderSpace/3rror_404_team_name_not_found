@@ -1,33 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
     width: 100%;
     margin: 0px;
-    background-color: #D8DBE2;
+    background-color: #FFF7F7;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
 }
-
+/*https://www.transparenttextures.com/patterns/green-gobbler.png*/
 header{
-    background-color: #5c4226;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-
+    background-color: #008c8c;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 }
 header h1{
     text-align:center;
     margin: 0px;
-
     color: #B5CA8D;
-
-    color: #527C75;
-
 }
 header h3{
     text-align: center;
     margin: 0px;
-
     color: #B5CA8D;
 }
-
 
 nav ul {
   list-style-type: none;
@@ -66,50 +59,42 @@ nav a{
     height: 200px;
   }
 
-header ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-item{
-    list-style-type: none;
-    display: inline-block;
-    background-color: #527C75;
- 
-    text-align: center;
-    margin-right: 10px;
-    padding: 3px 10px;
-    border-radius: 5px 5px 0px 0px;
-
-
-}}
-
 main{
     margin: 1%;
     min-height:100vh;
 }
-.motto-block{
+.motto{
     text-align: center;
-    font-family: Roboto;
+    font-size: larger;
+    color: #B5CA8D;
 }
 
-footer {
-    background-color:tomato;
-    border-top: solid 3px black;
+
+
+.albums{
     /*display: flex;*/
-    /*align-items: flex-end;*/
-/*}*/
-/*footer {*/
+}
+.albums h3{
+    
+}
+.album img{
+ height: 150px;   
+}
+
+
+    
+footer{
+     background-color: #197278;
+     padding:3%; 
+}
+footer ul{
   list-style-type: none; 
   display: flex;
   align-items:flex-end;
   justify-content:space-around;
   width:100%;
-  text-align: center;
-   position:relative;
-    
+  
 }
-    
 
 
 
@@ -143,41 +128,14 @@ a:link{
     color:orange;
 }
 
+
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
-<<<<<<< HEAD
-for side scrolling
-
-ul {
-    list-style-type: none;
-    color: #3B3B58;
-}
-
-.h3 {
-   color: #BB7E5D; 
-}
-
-p {
-    color: #3B3B58;
-}
-
-.ul {
-    list-style-type: disc;
-    color: #3B3B58;
-}
-
-.h1 {
-    color: #527C75;
-}
-
-.footer-items {
-    align-content: center;
-    justify-content: space-around;
 }
 
 .paulp{
     float:left;
     width: 40%;
-    }
+}
