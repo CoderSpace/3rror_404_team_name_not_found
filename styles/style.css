@@ -50,6 +50,7 @@ nav a{
   ul.nav li.icon{
     display: block;
     position: absolute;
+    top:70px;
   }
   ul.nav.responsive li{
     display: block;
@@ -57,8 +58,6 @@ nav a{
   header{
     height: 200px;
   }
-}
-
 
 main{
     margin: 1%;
@@ -79,11 +78,11 @@ main{
     
 }
 .album img{
-    height: 150px;
+ height: 150px;   
 }
 
 
-
+    
 footer{
      background-color: #197278;
      padding:3%; 
@@ -135,4 +134,8 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*for side scrolling*/
+
+.paulp{
+    float:left;
+    width: 40%;
+}
