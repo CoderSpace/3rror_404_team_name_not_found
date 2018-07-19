@@ -51,6 +51,7 @@ nav a{
   ul.nav li.icon{
     display: block;
     position: absolute;
+    top:70px;
   }
   ul.nav.responsive li{
     display: block;
@@ -58,8 +59,6 @@ nav a{
   header{
     height: 200px;
   }
-}
-
 
 main{
     margin: 1%;
@@ -78,9 +77,6 @@ h3{
 ul{
     list-style-position: inside;
 }
-
-
-
 .album-block{
     text-align: center;
     background: rgb(46, 140, 118, .5);
@@ -92,11 +88,8 @@ ul{
     justify-content: space-evenly;
 }
 .album img{
-    height: 150px;
+ height: 150px;   
 }
-
-
-
 footer{
      background-color: #197278;
      padding:3%; 
@@ -148,4 +141,8 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-/*for side scrolling*/
+
+.paulp{
+    float:left;
+    width: 40%;
+}
