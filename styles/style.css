@@ -5,6 +5,7 @@ body{
     margin: 0px;
     background-color: #FFF7F7;
     background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    text-align: center;
 }
 /*https://www.transparenttextures.com/patterns/green-gobbler.png*/
 header{
@@ -62,27 +63,33 @@ nav a{
 main{
     margin: 1%;
     min-height:100vh;
+    display: inline-block;
+    text-align: left;
+}
+h3{
+    color: #008c8c;
 }
 .motto{
     text-align: center;
     font-size: larger;
     color: #B5CA8D;
 }
-
-
-
-.albums{
-    /*display: flex;*/
+ul{
+    list-style-position: inside;
 }
-.albums h3{
-    
+.album-block{
+    text-align: center;
+    background: rgb(46, 140, 118, .5);
+    padding: .5em;
+    /*border-radius: 5%;*/
+}
+.albums{
+    display: flex;
+    justify-content: space-evenly;
 }
 .album img{
  height: 150px;   
 }
-
-
-    
 footer{
      background-color: #197278;
      padding:3%; 
