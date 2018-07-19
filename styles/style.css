@@ -41,6 +41,19 @@ nav a{
 .icon{
   display: none;
 }
+footer{
+     background-color:#008c8c;
+     padding:3%; 
+     background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+}
+footer ul{
+  list-style-type: none; 
+  display: flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  width:100%;
+    
+}
 @media screen and (max-width:700px){
   ul.nav li:not(:first-child){
     display: none;
@@ -60,10 +73,9 @@ nav a{
   }
   header{
     height: 200px;
+
   }
 }
-
-
 
 main{
     margin: 1%;
@@ -83,8 +95,6 @@ ul{
     list-style-position: inside;
 }
 
-
-
 .album-block{
     text-align: center;
     background: rgb(46, 140, 118, .5);
@@ -98,6 +108,7 @@ ul{
 .album img{
  height: 150px;   
 }
+
 
 .modal{
   display: none;
@@ -114,20 +125,6 @@ ul{
   position:absolute;
   left:37%;
 }
-
-
-footer{
-     background-color: #197278;
-     padding:3%; 
-}
-footer ul{
-  list-style-type: none; 
-  display: flex;
-  align-items:flex-end;
-  justify-content:space-around;
-  width:100%;
-}
-
 
 
 a:link{
@@ -160,8 +157,6 @@ a:link{
     color:orange;
 }
 
-
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -170,4 +165,4 @@ html, body {
 .paulp{
     float:left;
     width: 40%;
-}
+}   
