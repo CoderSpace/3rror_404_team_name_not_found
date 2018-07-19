@@ -4,11 +4,13 @@ body{
     width: 100%;
     margin: 0px;
     background-color: #FFF7F7;
-    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    text-align: center;
 }
-
+/*https://www.transparenttextures.com/patterns/green-gobbler.png*/
 header{
-    background-color: #197278;
+    background-color: #008c8c;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 }
 header h1{
     text-align:center;
@@ -62,21 +64,38 @@ nav a{
 main{
     margin: 1%;
     min-height:100vh;
+    display: inline-block;
+    text-align: left;
 }
-.motto-block{
+h3{
+    color: #008c8c;
+}
+.motto{
     text-align: center;
-    font-family: Roboto;
+    font-size: larger;
+    color: #B5CA8D;
+}
+ul{
+    list-style-position: inside;
 }
 
-.albums{
-    /*display: flex;*/
+
+
+.album-block{
+    text-align: center;
+    background: rgb(46, 140, 118, .5);
+    padding: .5em;
+    /*border-radius: 5%;*/
 }
-.albums h3{
-    
+.albums{
+    display: flex;
+    justify-content: space-evenly;
 }
 .album img{
     height: 150px;
 }
+
+
 
 footer{
      background-color: #197278;
@@ -90,6 +109,8 @@ footer ul{
   width:100%;
   
 }
+
+
 
 a:link{
     text-decoration: none;
@@ -120,6 +141,8 @@ a:link{
     opacity: 0.7;
     color:orange;
 }
+
+
 
 html, body {
     max-width: 100%;
