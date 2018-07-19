@@ -165,4 +165,31 @@ html, body {
 .paulp{
     float:left;
     width: 40%;
-}   
+
+}
+
+
+
+.fab {
+    text-decoration:none;
+    color:#D03BF7;
+} 
+
+.riverdale{
+  position:absolute;
+  top:15.6em;
+  right:10%;
+}
+
+.stuff{
+  position:absolute;
+  left:70%;
+  top:34.7em;
+}
+
+}
+.text{
+    margin: 0px;
+    color: black;
+}
+
